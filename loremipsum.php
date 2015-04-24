@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Little Lorem Ipsum Generator</title>
+</head>
+<body>
+<h1>My Little Lorem Ipsum Generator</h1>
+<p>
+Wanted some random lines? You're at the right place! Here's some for you! Reload for another excerpt!
+How it works, you say? It fetches 20 random lines from 20 random episodes of popular show <em>My Little Pony: Friendship is Magic</em> (sometimes less?) and throws it all together! Have fun reading it!
+</p>
+<p>
 <?php
 //date_default_timezone_set("America/New_York");
 $file = file_get_contents("episodes.txt");
@@ -13,7 +25,7 @@ for($i=0; $i<count($lines); $i++)
 		$episodes[$line[0]][$line[1]]["date"] = $line[4];
 	}
 }
-for($l=0;$l<12;$l++)
+for($l=0;$l<20;$l++)
 {
 	$season = array_keys($episodes)[mt_rand(0,count(array_keys($episodes))-1)];
 	$ep = array_keys($episodes[$season])[mt_rand(0,count(array_keys($episodes[$season]))-1)];
@@ -94,3 +106,10 @@ for($l=0;$l<12;$l++)
 	echo $thelines[mt_rand(0,count($thelines)-1)]." ";
 }
 echo "\n";
+?></p>
+<p>
+<small>Please note this script fetches the episode transcripts directly from Wikia, so please don't abuse it :P Please bear with me while I make a fancier website.</small>
+</p>
+<p><small>Made by <a href="http://twitter.com/juju2143">@juju2143</a></small></p>
+</body>
+</html>

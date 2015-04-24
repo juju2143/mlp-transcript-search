@@ -91,3 +91,8 @@ M;1;My Little Pony Equestria Girls;Meghan McCarthy;1371355200
 4;25;Twilight's Kingdom - Part 1;Meghan McCarthy;1399730400
 4;26;Twilight's Kingdom - Part 2;Meghan McCarthy;1399732200
 M;2;My Little Pony Equestria Girls: Rainbow Rocks;Meghan McCarthy;1411790400
+5;1;The Cutie Map - Part 1;Scott Sonneborn, M.A. Larson, story by Meghan McCarthy;0
+5;2;The Cutie Map - Part 2;Scott Sonneborn, M.A. Larson, story by Meghan McCarthy;0
+5;3;Castle Sweet Castle;Joanna Lewis, Kristine Songco;0
+5;4;Bloom & Gloom;Josh Haber;0
+5;7;Make New Friends But Keep Discord;Natasha Levinger;0
